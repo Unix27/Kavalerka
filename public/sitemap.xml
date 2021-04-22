@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <url>
+  <loc>http://tikkytool.lc:8888/blog</loc>
+ </url>
+ <url>
+  <loc>http://tikkytool.lc:8888/blog/advertising</loc>
+ </url>
+ <url>
+  <loc>http://tikkytool.lc:8888/blog/statistics-and-analytics</loc>
+ </url>
+ <url>
+  <loc>http://tikkytool.lc:8888/blog/instructions</loc>
+ </url>
+</urlset>

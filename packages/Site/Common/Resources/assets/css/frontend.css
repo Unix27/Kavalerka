@@ -1,0 +1,104 @@
+.header__profile-trigger {
+	cursor: pointer;
+}
+.header__profile-trigger svg {
+	width: 10px;
+	height: 6px;
+}
+
+.pagination__inner ul {
+	 margin: 0;
+}
+.pagination {
+	flex-direction: row;
+}
+
+/* Messages for success/error*/
+
+.notify {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	/*margin: 1rem;*/
+	background: #e4eaee;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: 2px;
+	color: rgba(0, 0, 0, .5);
+}
+.notify.notify--pinned {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: 0;
+	border-top: none;
+	border-radius: 0 0 2px 2px;
+}
+.notify.notify--danger {
+	background: #f57e7d;
+}
+.notify.notify--warning {
+	background: #ffac69;
+}
+.notify.notify--success {
+	background: #82cf85;
+}
+.notify.notify--info {
+	background: #7db8f5;
+}
+.notify.notify--dismissible {
+	padding-right: 2.5rem;
+}
+.notify .notify-close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: block;
+	text-align: center;
+	padding: 1rem;
+	border: none;
+	background: none;
+	color: rgba(0, 0, 0, .2);
+}
+.notify .notify-close:hover {
+	cursor: pointer;
+	color: rgba(0, 0, 0, .6);
+}
+.notify .notify-undo {
+	position: absolute;
+	right: 0.5rem;
+	top: 0.7rem;
+	display: block;
+	text-align: center;
+	padding: 0.4rem 1rem;
+	border: none;
+	border-radius: 3px;
+	background: rgba(0, 0, 0, .05);
+	color: rgba(0, 0, 0, .5);
+	font-size: 0.9rem;
+}
+.notify .notify-undo:hover {
+	cursor: pointer;
+	background: rgba(0, 0, 0, .1);
+	color: rgba(0, 0, 0, .55);
+}
+.bootstrap-select {
+	display: none !important;
+}
+
+.profile__data.active .bootstrap-select {
+	display: block !important;
+}
+
+.order__selects.active .bootstrap-select {
+	display: block !important;
+}
+
+.order__inputs input.error {
+	border: 1px solid red;
+}
+.order__selects select.error {
+	border: 1px solid red;
+}
